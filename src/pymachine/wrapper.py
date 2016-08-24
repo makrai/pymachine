@@ -13,7 +13,7 @@ from pymachine.operators import AppendToBinaryFromLexiconOperator  # nopep8
 from pymachine.utils import ensure_dir, MachineGraph, MachineTraverser
 from pymachine.machine import Machine
 from pymachine.spreading_activation import SpreadingActivation
-from pymachine.definition_parser import read as read_defs
+from pymachine.definition_parser import read_defs
 from pymachine.sup_dic import supplementary_dictionary_reader as sdreader
 from pymachine import np_grammar
 
